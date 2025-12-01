@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>游戏热门推荐</title>
+<style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: '微软雅黑', sans-serif;
+            background: linear-gradient(135deg, #1a2a6c, #2a5298);
+            color: #fff;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        header h1 {
+            font-size: 3rem;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+        
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        .category-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+            width: 300px;
+        }
+        
+        .category-card:hover {
+            transform: translateY(-10px) scale(1.02);
+        }
+        
+        .category-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .category-info {
+            padding: 20px;
+        }
+        
+        .category-info h2 {
+            margin-bottom: 10px;
+            font-size: 1.8rem;
+        }
+        
+        .category-info p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 50px;
+            font-size: 1.1rem;
+            opacity: 0.7;
+        }
+        
+        @media (max-width: 768px) {
+            .categories {
+                gap: 20px;
+            }
+            
+            .category-card {
+                width: 100%;
+                max-width: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<header>
+<h1>游戏热门推荐</h1>
+</header>
+<div class="categories">
+<!-- 动作类 -->
+<div class="category-card">
+
+<div class="category-info">
+<h2>动作类（★★★★★）</h2>
+<p>这款动作游戏以其流畅的战斗系统和精美的画面获得了玩家的高度评价。</p><p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">发布日期：2025年11月</p></div>
+</div>
+<!-- 冒险类 -->
+<div class="category-card">
+
+<div class="category-info">
+<h2>冒险类（★★★★★）</h2>
+<p>探索未知世界，解开神秘谜题，这款冒险游戏将带你踏上史诗般的旅程。</p><p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">发布日期：2025年11月</p></div>
+</div>
+<!-- 角色扮演类 -->
+<div class="category-card">
+
+<div class="category-info">
+<h2>角色扮演类（★★★★★）</h2>
+<p>扮演英雄角色，在广阔的世界中展开冒险，体验丰富的剧情和角色成长。</p><p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">发布日期：2025年11月</p></div>
+</div>
+<!-- 策略类 -->
+<div class="category-card">
+
+<div class="category-info">
+<h2>策略类（★★★★★）</h2>
+<p>考验你的战略思维，管理资源，部署军队，赢得战争胜利。</p><p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">发布日期：2025年11月</p></div>
+</div>
+<!-- 模拟类 -->
+<div class="category-card">
+
+<div class="category-info">
+<h2>模拟类（★★★★★）</h2>
+<p>真实模拟驾驶体验，让你感受速度与激情的完美结合。</p><p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">发布日期：2025年11月</p></div>
+</div>
+<!-- 体育类 -->
+<div class="category-card">
+
+<div class="category-info">
+<h2>体育类（★★★★★）</h2>
+<p>逼真的体育竞技体验，与全球玩家在线对战，争夺冠军宝座。</p><p style="font-size: 0.9rem; opacity: 0.7; margin-top: 10px;">发布日期：2025年11月</p></div>
+</div>
+
+</div>
+<footer>
+<p>© 2025 游戏热门推荐 | 每日更新，发现更多精彩游戏</p>
+</footer>
+</div>
+</body>
+</html>
